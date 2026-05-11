@@ -1,0 +1,850 @@
+@font-face {
+    font-family: goldman ;
+    src: url(./ASSESTS/Goldman-Regular.ttf);
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+::-webkit-scrollbar{
+    display: none;
+}
+
+}
+#main{
+    width: 100%;
+    height: 200%;
+    /* background-color: blue; */
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+#page1{
+    width: 100%;
+    height: 50%;
+    /* background-color: red;
+     */
+     background-image: url(./ASSESTS/66530.webp);
+     background-position: 0% 15%;
+     background-size: cover;
+     position: relative;
+}
+#page2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(20, 137, 4);
+}
+#nav{
+    width: 100%;
+    height: 7vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2vw;
+
+
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0px; */
+}
+.lg{
+    width: 5.2vw;
+    height: 4vw;
+    /* background-color: blue; */
+    background-image: url(./ASSESTS/66534-removebg-preview.webp);
+    background-position: center;
+    background-size: cover;
+}
+.lg-txt{
+    font-family: goldman;
+    font-size: 0.7vw;
+    line-height: 0.65vw;
+    color: #fff;
+    margin-top: 5.5px;
+}
+.lg-txt h3{
+    font-weight: 500;
+}
+
+#links{
+    display: flex;
+    gap: 25px;
+    
+
+}
+#links a{
+    text-decoration: none;
+    font-family: goldman;
+    color: #ffffffef;
+    font-size: 12px;
+    font-weight: 400;
+margin-top:0.7vw;
+}
+#links a:nth-child(1){
+    border-bottom: 2px solid #1FDACB;
+    height: 2vw;
+}
+
+#r-link{
+    width: 11vw;
+    height: 2vw;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 1.2px solid #1FDACB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-right: 1.3vw;
+
+}
+#r-link h2{
+    font-family: goldman;
+    font-size: 0.8vw;
+    color: #fff;
+    font-weight: 400;
+}
+#r-link i{
+    color: #1FDACB;
+}
+#hero-img{
+    width: 85vh;
+    height: 85vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 8%;
+    left: 36%;
+    background-image: url(./ASSESTS/astro_n.webp);
+    background-position: center;
+    background-size: cover;
+
+
+}
+#p1-r{
+    width: 20vw;
+    height: 20vw;
+    /* background-color: red; */
+    position: absolute;
+    right: -3.5%;
+    top: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+
+}
+.p1r-elm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.r-ic{
+    width: 3vw;
+    height: 3vw;
+    background-color:  #1fdaca31;
+    color: #1FDACB;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    border: 1.2px solid #1fdacadb;
+    box-shadow: 0px 0px 9px  #13bb9f ;
+
+
+}
+.p1r-elm h2{
+    font-family: goldman;
+    font-size: 0.8vw;
+    color: #ffffffdb;
+    font-weight: 400;
+}
+#p1-l{
+    width: 40vw;
+    /* height: 40vw; */
+    /* background-color: red; */
+    padding: 3vw;
+    margin-top: 0.7vw;
+}
+#p1-bottom{
+    position: absolute;
+    width: 95%;
+    height: 10.5vw;
+     background: linear-gradient(
+    135deg,
+   #0E191C,
+    rgba(255,255,255,0.05),
+    #0c1518
+  );
+
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border: 0.8px solid rgba(255, 255, 255, 0.065);
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.25),
+    inset 0 1px 1px rgba(255,255,255,0.2);
+
+    left: 50%;
+    bottom: 1.6%;
+    transform: translate(-50%,0%);
+    padding: 4vw 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1-l h3{
+    font-family: goldman;
+    color: #1FDACB;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+#p1-l h1{
+    font-family: goldman;
+    color: #ffffff;
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    margin-top: 1vw;
+    margin-left: -0.5vw;
+}
+#p1-l h1 span{
+    font-family: goldman;
+    color: #1FDACB;
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: -0.43vw;
+}
+#p1-l h2{
+      font-family: goldman;
+    color: #e4e4e4;
+    font-size: 1.2vw;
+    font-weight: 200;
+    margin-top: 1.7vw;
+    line-height:1.1vw ;
+}
+#p1-l p{
+    font-family: gilroy;
+    font-size: 0.8vw;
+    color: #c8c7c7;
+    font-weight: 400;
+    width: 20vw;
+    margin-top: 1.6vw;
+    line-height: 1.5vw;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 1.7vw;
+
+}
+.bt1{
+    display: flex;
+    align-items: center;
+}
+.play{
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1.5px solid #1FDACB ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+
+}
+button{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1.6px solid #1FDACB  ;
+    box-shadow: 1px 0px 8px #1fdacaab ;
+    font-family: goldman;
+    font-size: 0.7vw;
+    font-weight: 500;
+    background: linear-gradient(to right,transparent,#11E3CE);
+    color: #fff;
+}
+.btn-unq{
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+button i{
+    color: #fff;
+    font-size: 1vw;
+    margin-left: 15px;
+}
+.bot-det{
+    /* background-color: red; */
+    width: 15vw;
+    height: 7vw;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-right: 1.8px solid rgba(209, 208, 208, 0.774);
+    /* padding: 6vw 4vw; */
+}
+.bot-det h1{
+    font-family: goldman;
+    font-size: 2vw;
+    color: #11E3CE;
+    font-weight: 400;
+}
+.bot-det h4{
+    font-family: goldman;
+    font-size: 0.7vw;
+    color: #fefefeb5;
+    font-weight: 300;
+}
+.det-lst{
+    border-right: none;
+}
+#star1{
+    width: 13vw;
+    height: 13vw;
+    background-image:url(./ASSESTS/star_1.webp);
+    position: absolute;
+    /* background-color: red; */
+    background-position: center;
+    background-size: cover;
+    right: 2%;
+    bottom: 3%;
+}
+#star2{
+    width: 12.6vw;
+    height: 12.6vw;
+    background-image:url(./ASSESTS/start_2.webp);
+    position: absolute;
+    /* background-color: red; */
+    background-position: center;
+    background-size: cover;
+    left: 2.6%;
+    bottom: 3%;
+    z-index: 3;
+}
+
+#nav2{
+    width: 100%;
+    height: 7vw;
+    background-color: transparent;
+    padding: 2vw 3vw;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-txt{
+    width: 15vw;
+    height: 4vw;
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.nav-txt h3{
+     font-family: goldman;
+    color: #1FDACB;
+    font-size: 1.2vw;
+    font-weight: 300;
+
+}
+.nav-txt h1{
+     font-family: goldman;
+    color: #ffffff;
+    font-size: 2.1vw;
+    font-weight: 300;
+    margin-top: -8px;
+
+}
+.arrow{
+    width: 5vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 3vw;
+    gap: 10px;
+}
+.ar1{
+    width: 2.4vw;
+    height: 2.4vw;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: #dbd8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ar2{
+    width: 2.4vw;
+    height: 2.4vw;
+    border-radius: 50%;
+    border: 1px solid #11E3CE ;
+    background-color: transparent;
+    color: #11E3CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ar1 i{
+    font-size: 1.5vw;
+}
+.ar2 i{
+    font-size: 1.5vw;
+}
+#page2{
+    background-color: #000F15;
+}
+#card{
+    width: 100%;
+    height: 20vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: -20px;
+    position: relative;
+
+}
+.card-elm{
+    width: 19vw;
+    height: 19vw;
+    background-color: #0E191D;
+    border-radius: 10px;
+    border: 1px solid #11E3CE ;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.card-img{
+    width: 100%;
+    height: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0.5vw;
+}
+.card-img-btn{
+    width: 5.6vw;
+    height: 2vw;
+    /* background-color: red; */
+    font-family: goldman;
+    font-size: 0.6vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 8px;
+   background-color: #15161670;
+    border: 1px solid #11E3CE ;
+}
+.card-img-btn h3{
+    font-weight: 300;
+}
+
+.card-elm p{
+    width: 10vw;
+    font-family: goldman;
+    font-size: 10px;
+    color: #c4c1c1b8;
+    font-weight: 200;
+    margin-left: 0.6vw;
+    margin-top: 1vw;
+}
+.card-bot-nav{
+    width: 100%;
+    height: 3vw;
+    /* background-color: green; */
+    bottom: 0%;
+    position: absolute;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.icon-arw{
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 50%;
+    border: 1.4px solid #11E3CE ;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #11E3CE;
+
+}
+.card-bot-nav i{
+    color:#fff;
+    font-size: 1.2vw;
+}
+.card-bot-nav i.ri-android-fill{
+    color:#11E3CE;
+}
+.small-icon{
+    display: flex;
+    gap: 10px;
+}
+.img1{
+    background-image: url(./ASSESTS/sled_hockey.png);
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url(./ASSESTS/project_genesis.png);
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    background-image: url(./ASSESTS/mechanic_park.png);
+    background-position: center;
+    background-size: cover;
+}
+#hw-txt{
+    /* width: 15vw; */
+    height: 3vw;
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    white-space: nowrap;
+    font-family: goldman;
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin-top: -0.3vw;
+}
+#hw-txt h1{
+    color: #fff;
+}
+#hw-txt span{
+    color: #11E3CE;
+}
+#n-card{
+    width: 95%;
+    height: 10vw;
+    /* background-color: red; */
+    margin-top: 2vw;
+    padding: 20px 10vw;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0%);
+}
+.n-crd{
+    width: 10vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* background-color: yellowgreen; */
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0.5px solid  #11E3CE;
+    
+
+}
+.n-txt{
+    margin-top: -3px;
+}
+.n-txt h1{
+    font-family: goldman;
+    font-size: 1.2vw;
+    color:  #11E3CE;
+    font-weight: 500;
+
+}
+.n-txt h3{
+    font-family: goldman;
+    font-size: 0.7vw;
+    color: #ffffff;
+    font-weight: 500;
+
+}.n-txt p{
+    font-family: goldman;
+    font-size: 6px;
+    color: #cfcfcf;
+    font-weight: 500;
+    width: 4vw;
+    line-height: 0.8vw;
+    text-transform: uppercase;
+
+}
+.n-icn{
+    color: #11E3CE;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid  #11E3CE;
+}
+#footer{
+    width: 95%;
+    height: 13vw;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%,0%);
+   
+   
+    background-image: url(./ASSESTS/foot-img.webp);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid  #11e3cea0;
+
+
+}
+#ft-layer{
+    width: 95%;
+    height: 13vw;
+    background-color: rgba(18, 18, 18, 0.545);
+    position: absolute;
+    bottom: 1.%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 30px; */
+    /* background-image: url(./ASSESTS/foot-img.webp);
+    background-position: center;
+    background-size: cover; */
+    overflow: hidden;
+    /* border-radius: 12px; */
+
+  
+
+
+}
+.ft-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    color: #fff;
+}
+.ft-btn{
+    color: #fff;
+    font-family: goldman;
+    font-size: 0.7vw;
+    padding: 1vw;
+    width: 10vw;
+    height: 2.7vw;
+    border-radius: 7px;
+    border: 1px solid  #11E3CE;
+    background: linear-gradient(to right,transparent 0%,transparent 40%,#11E3CE 100%);
+
+}
+.ft-btn i{
+    font-size: 1.3vw;
+}
+
+#foot-1 h1{
+      font-family: goldman;
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: -8px;
+    line-height: 1.9vw;
+}
+#foot-1 span{
+      font-family: goldman;
+    color: #11E3CE;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: -8px;
+}
+#foot-1 h3{
+      font-family: goldman;
+    color: #b8b8b8;
+    font-size: 0.7vw;
+    font-weight: 100;
+    margin-top: 1vw;
+    margin-bottom: 1.9vw;
+}
+#foot-2{
+    width: 30vw;
+    height: 100%;
+    background-color: transparent;
+    right: 0%;
+    position: absolute;
+    display: flex;
+    /* gap: 20px; */
+ 
+}
+.ft1{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 1vw;
+    border-right: 1px solid rgba(184, 181, 181, 0.089) ;
+}
+.ft-logo-bar{
+    width: 9vw;
+    height: 3vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -11px;
+}
+.ftlogo{
+    width: 4vw;
+    height: 100%;
+    background-image: url(./ASSESTS/66534-removebg-preview.webp);
+    background-position: center;
+    background-size: cover;
+}
+.ftxt{
+    font-family: goldman;
+    font-size: 0.5vw;
+    color: #b3b3b3;
+    font-weight: 100;
+    margin-top: 7.5px;
+}
+.ft1 h4{
+        font-family: goldman;
+    font-size: 0.8vw;
+    color: #b3b3b3;
+    font-weight: 100;
+    margin-top: 7.5px;
+}
+.ft1 h3{
+        font-family: goldman;
+    font-size: 0.6vw;
+    color: #b3b3b3;
+    font-weight: 100;
+    margin-top: 4.5px;
+}
+.ft-icon-row{
+    width: 12vw;height: 3vw;
+    /* background-color: white; */
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.ficon {
+    width: 2vw;
+    height: 2vw;
+    font-size: 1vw;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  #11E3CE;
+    color: #fff;
+ 
+}
+.ft-icon-row #fic i{
+    color: #11E3CE;
+}
+.ft2{
+    width: 50%;
+    height: 100%;
+    background-color:transparent;
+    padding: 1vw;
+  
+}
+.ft2 h1{
+         font-family: goldman;
+    font-size: 0.8vw;
+    color: #b3b3b3;
+    font-weight: 100;
+    margin-top: 1vw;
+}
+#add{
+    width: 14vw;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.addbar{
+    width: 100%;
+    height: 3vw;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.addbar h3{
+        font-family: goldman;
+    font-size: 0.8vw;
+    color: #cfcfcf;
+    font-weight: 200;
+    /* width: 4vw; */
+    /* line-height: 1vw; */
+}
+.addbar .add-icon i{
+font-size: 1.4vw;
+color: #aceee780;
+}
+.addbar .aic i{
+    color: #4fded2;
+}
+#lftxt{
+    width: 95%;
+    height: 2vw;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    padding: 5px;
+}
+#lftxt h3{
+            font-family: montserrat;
+    font-size: 0.8vw;
+    color: #9e9d9d;
+    font-weight: 400;
+}
