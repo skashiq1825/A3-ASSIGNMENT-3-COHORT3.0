@@ -1,6 +1,6 @@
 @font-face {
     font-family: goldman ;
-    src: url(./ASSESTS/Goldman-Regular.ttf);
+    src: url(./ASSETS/Goldman-Regular.ttf);
 }
 * {
 margin: 0;
@@ -29,7 +29,7 @@ height: 100%;
     height: 50%;
     /* background-color: red;
      */
-     background-image: url(./ASSESTS/66530.webp);
+     background-image: url(./ASSETS/66530.webp);
      background-position: 0% 15%;
      background-size: cover;
      position: relative;
@@ -60,7 +60,7 @@ height: 100%;
     width: 5.2vw;
     height: 4vw;
     /* background-color: blue; */
-    background-image: url(./ASSESTS/66534-removebg-preview.webp);
+    background-image: url(./ASSETS/66534-removebg-preview.webp);
     background-position: center;
     background-size: cover;
 }
@@ -123,7 +123,7 @@ margin-top:0.7vw;
     position: absolute;
     top: 8%;
     left: 36%;
-    background-image: url(./ASSESTS/astro_n.webp);
+    background-image: url(./ASSETS/astro_n.webp);
     background-position: center;
     background-size: cover;
 
@@ -324,7 +324,7 @@ button i{
 #star1{
     width: 13vw;
     height: 13vw;
-    background-image:url(./ASSESTS/star_1.webp);
+    background-image:url(./ASSETS/star_1.webp);
     position: absolute;
     /* background-color: red; */
     background-position: center;
@@ -335,7 +335,7 @@ button i{
 #star2{
     width: 12.6vw;
     height: 12.6vw;
-    background-image:url(./ASSESTS/start_2.webp);
+    background-image:url(./ASSETS/start_2.webp);
     position: absolute;
     /* background-color: red; */
     background-position: center;
@@ -518,17 +518,17 @@ button i{
     gap: 10px;
 }
 .img1{
-    background-image: url(./ASSESTS/sled_hockey.png);
+    background-image: url(./ASSETS/sled_hockey.png);
     background-position: center;
     background-size: cover;
 }
 .img2{
-    background-image: url(./ASSESTS/project_genesis.png);
+    background-image: url(./ASSETS/project_genesis.png);
     background-position: center;
     background-size: cover;
 }
 .img3{
-    background-image: url(./ASSESTS/mechanic_park.png);
+    background-image: url(./ASSETS/mechanic_park.png);
     background-position: center;
     background-size: cover;
 }
@@ -626,7 +626,7 @@ button i{
     transform: translate(-50%,0%);
    
    
-    background-image: url(./ASSESTS/foot-img.webp);
+    background-image: url(./ASSETS/foot-img.webp);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -647,7 +647,7 @@ button i{
     align-items: center;
     justify-content: space-between;
     /* padding: 30px; */
-    /* background-image: url(./ASSESTS/foot-img.webp);
+    /* background-image: url(./ASSETS/foot-img.webp);
     background-position: center;
     background-size: cover; */
     overflow: hidden;
@@ -732,7 +732,7 @@ button i{
 .ftlogo{
     width: 4vw;
     height: 100%;
-    background-image: url(./ASSESTS/66534-removebg-preview.webp);
+    background-image: url(./ASSETS/66534-removebg-preview.webp);
     background-position: center;
     background-size: cover;
 }
